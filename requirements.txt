@@ -1,5 +1,4 @@
 flask
-SQLAlchemy
-pycrypto
-numpy
-git+https://github.com/hellman/libnum.git
+gevent
+cryptography
+PyJWT==1.6.4

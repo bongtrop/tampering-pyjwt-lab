@@ -1,19 +1,12 @@
-# web-crypto-lab #
+# Tempering PyJWT Lab
 
-### What is this repository for? ###
+Read [this blog](https://medium.com/@bongtrop/%E0%B8%9A%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-jwt-json-web-token-9d7a7aae62dd).
 
-* This repo is a base crypto web lab with flask. Just fork this repo naja.
-* 1.0.0
-
-### How do I get set up? ###
+### Usage
 
 docker build -t foo .
+docker run -p 1337:1337 foo
 
 ### Contribution guidelines ###
 
 No need
-
-### Who do I talk to? ###
-
-* bongtrop naja
-* cnc ctf team
