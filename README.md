@@ -5,6 +5,7 @@ Read [this blog](https://medium.com/@bongtrop/%E0%B8%9A%E0%B9%88%E0%B8%99%E0%B9%
 ### Usage
 
 docker build -t foo .
+
 docker run -p 1337:1337 foo
 
 ### Contribution guidelines ###
