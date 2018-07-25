@@ -21,7 +21,7 @@ def index():
         response.set_cookie('token', value=jwt.encode({"name": "chicken_user"}, SK, algorithm="ES256"))
         return response
 
-    return render_template("index.html", flag=flag)
+    return render_template("index.html", flag=flag, name=data.get("name"))
 
 @app.route("/robots.txt")
 def robot():
